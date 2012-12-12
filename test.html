@@ -1,25 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
-<head profile="http://gmpg.org/xfn/11">
-<link rel="shortcut icon" href="http://matroscoe.ca/misc/test/favicon.ico">
-<title>R-2 Consulting Ltd. | CV</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<meta http-equiv="imagetoolbar" content="no" />
-<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+<!DOCTYPE html>
+<!--
+Copyright 2012 Mozilla Foundation
 
-<!-- jQuerry Tabbed Pane -->
-<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
-<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
-<script>
-    $(function() {
-        $( "#tabs" ).tabs();
-    });
-</script>
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-<!-- CSV to Table -->
-<script src="http://js-tables.googlecode.com/svn/trunk/jquery.csv.js"></script>
-<script src="http://js-tables.googlecode.com/svn/trunk/jquery.table.js"></script>
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>PDF.js viewer</title>
+
 
     <link rel="stylesheet" href="js/viewer.css"/>
     <script type="text/javascript" src="js/compatibility.js"></script>
@@ -27,100 +27,13 @@
     <link rel="resource" type="application/l10n" href="js/locale/locale.properties"/>
     <script type="text/javascript" src="js/l10n.js"></script>
     <script type="text/javascript" src="js/pdf.js"></script>
+
     <script type="text/javascript" src="js/debugger.js"></script>
     <script type="text/javascript" src="js/viewer.js"></script>
-</head>
-<body id="top">
-<div class="wrapper">
-  <!-- ####################################################################################################### -->
-  <div id="header">
-    <div class="fl_left">
-      <h2><a href="#"> R-2 (Robert Roscoe) Consulting Ltd</a></h2>
-      <p>Pharmacist, Registered Diabetic Educator</p>
-    </div>
-    <!-- TODO: Update logo file to be 468x60 -->
-    <div class="fl_right"><a href="#"><img src="images/logo.png" alt="" /></a></div>
-    <br class="clear" />
-  </div>
-  <!-- ####################################################################################################### -->
-  <div id="topbar">
-    <div class="fl_left">
-      <p> Mail: admin@robroscoe.ca</p>
-      <form action="#" method="post">
-        <fieldset>
-          <legend>Site Search</legend>
-          <input type="text" value="Search the site&hellip;"  onfocus="this.value=(this.value=='Search the site&hellip;')? '' : this.value ;" />
-          <input type="submit" name="go" id="go" value="GO" />
-        </fieldset>
-      </form>
-    </div>
-    <div id="topnav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li class="active"><a href="cv.html">Curriculum Vitae</a></li>
-        <li><a href="#">Media</a>
-          <ul>
-            <li><a href="#">Photos(?)</a></li>
-            <li><a href="#">Publications</a></li>
-            <li><a href="presentations.html">Presentations</a></li>
-            <li><a href="media_apperances.html">Media Appearances</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </div>
-    <br class="clear" />
-  </div>
-  </br>
-  <!-- ####################################################################################################### -->
-  <div id="tabs">
-            <ul>
-                <li><a href="#tabs-1">Overview</a></li>
-                <li><a href="#tabs-2">Professional Experience</a></li>
-                <li><a href="#tabs-3">Education</a></li>
-                <li><a href="#tabs-4">Presentations</a></li>
-                <li><a href="#tabs-5">Advisory Boards, Expert Committees, Consulting</a></li>
-            </ul>
-            <div id="tabs-1">
-                <h1>Robert Roscoe's Curriculum Vitae</h1>
-                <h2>Website Form</h2>
-                <p> On this website you will find tabs above that allow you to interactively search through the CV of Robert Roscoe. This will allow for you to search for specific items such as jobs, presentations, etc...</p>
-                
-                <h2>PDF Form</h2>
-                <p> Please note that we are currently in the process of updating the CV that can be found below in PDF form. If you have any questions please contact Robert Roscoe directly and he will get back to you as soon as possible. 
-                
-                <p> If you would like to view and download a protected version of this PDF please follow the link provided below. This CV can be provided in other forms and you can request a specific form through the <a href="#">Contact Me</a> page.</p>
-            
-                <p style="text-align:center"><a href="#cv_pdf">View PDF CV</a></p>
-            </div>
+  </head>
 
-            <div id="tabs-2">
-                <p>TEST</p>
-            </div>
-            <div id="tabs-3"> 3 </div>
-            <div id="tabs-4"> 4 </div>
-            <div id="tabs-5"> </div>
-        </div>
-        <div class="clear"></div>
-   <!-- ####################################################################################################### -->
-  <div id="copyright">
-    <p class="fl_left">Copyright &copy; 2010 - 2012: All Rights Reserved - <a href="http://matroscoe.ca">Matthew S Roscoe</a></p>
-    <p class="fl_right">Template by <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
-    <br class="clear" />
-  </div>
-  <!-- ####################################################################################################### -->
-  <br class="clear" />
-</div>
-
-<!--POPUP START-->
-<div id="cv_pdf" class="modalDialog">
-    <div>
-        <a href="#close" title="Close" class="close">X</a>
-	    <!--<div id="pdf_cv"></div>
-	    <script>$('#pdf_cv').PDFDoc( { source : 'http://matroscoe.ca/misc/test/documents/cv.pdf' } );</script> -->
-	    
-	     <div id="outerContainer">
+  <body>
+    <div id="outerContainer">
 
       <div id="sidebarContainer">
         <div id="toolbarSidebar">
@@ -164,9 +77,6 @@
           <div id="toolbarContainer">
             <div id="toolbarViewer">
               <div id="toolbarViewerLeft">
-                <button id="sidebarToggle" class="toolbarButton" title="Toggle Sidebar" tabindex="3" data-l10n-id="toggle_slider">
-                  <span data-l10n-id="toggle_slider_label">Toggle Sidebar</span>
-                </button>
                 <div class="toolbarButtonSpacer"></div>
                 <button id="viewFind" class="toolbarButton group" title="Find in Document" tabindex="4" data-l10n-id="findbar">
                    <span data-l10n-id="findbar_label">Find</span>
@@ -191,10 +101,6 @@
 
                 <button id="fullscreen" class="toolbarButton fullscreen" title="Switch to Presentation Mode" tabindex="11" data-l10n-id="presentation_mode">
                   <span data-l10n-id="presentation_mode_label">Presentation Mode</span>
-                </button>
-
-                <button id="openFile" class="toolbarButton openFile" title="Open File" tabindex="12" data-l10n-id="open_file">
-                   <span data-l10n-id="open_file_label">Open</span>
                 </button>
 
                 <button id="print" class="toolbarButton print" title="Print" tabindex="13" data-l10n-id="print">
@@ -279,8 +185,8 @@
         </div>
       </div> <!-- mainContainer -->
 
-    </div> <!-- outerContainer -->	    
-    </div>
-</div>
-</body>
+    </div> <!-- outerContainer -->
+    <div id="printContainer"></div>
+  </body>
 </html>
+
